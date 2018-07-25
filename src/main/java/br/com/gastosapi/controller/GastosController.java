@@ -1,4 +1,4 @@
-package br.com.santander.api.controller;
+package br.com.gastosapi.controller;
 
 import java.time.LocalDate;
 import java.util.List;
@@ -14,8 +14,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.santander.api.model.Gasto;
-import br.com.santander.api.service.GastosService;
+import br.com.gastosapi.model.Gasto;
+import br.com.gastosapi.service.GastosService;
 
 @RequestMapping("/gastos")
 @RestController
