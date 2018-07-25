@@ -1,8 +1,8 @@
-﻿# Instruções para utilização da API
+# Instruções para utilização da API
 
 ### # CRIAÇÃO DO DATABASE:
 
-create database santanderapi;
+create database gastosapi;
 
 create table cliente (
 
@@ -62,7 +62,7 @@ Executar o comando 'mvn clean install' no diretório raiz do projeto.
 
 ### # INICIALIZANDO O SERVIÇO:
 
-Para iniciar o serviço, executar a classe 'SantanderApiApplication.java', localizada no diretório do projeto.
+Para iniciar o serviço, executar a classe 'GastosApiApplication.java', localizada no diretório do projeto.
 
 ```
 ```

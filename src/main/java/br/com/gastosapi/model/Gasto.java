@@ -1,4 +1,4 @@
-package br.com.santander.api.model;
+package br.com.gastosapi.model;
 
 import java.io.Serializable;
 import java.time.LocalDate;
@@ -15,9 +15,9 @@ import javax.persistence.Table;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 
-import br.com.santander.api.util.ConversorLocalDate;
-import br.com.santander.api.util.DeserializadorLocalDate;
-import br.com.santander.api.util.SerializadorLocalDate;
+import br.com.gastosapi.util.ConversorLocalDate;
+import br.com.gastosapi.util.DeserializadorLocalDate;
+import br.com.gastosapi.util.SerializadorLocalDate;
 
 @Entity
 @Table(name = "gasto")

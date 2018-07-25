@@ -1,4 +1,4 @@
-package br.com.santander.api.model;
+package br.com.gastosapi.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

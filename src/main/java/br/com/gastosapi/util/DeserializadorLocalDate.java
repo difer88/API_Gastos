@@ -1,4 +1,4 @@
-package br.com.santander.api.util;
+package br.com.gastosapi.util;
 
 
 import java.io.IOException;

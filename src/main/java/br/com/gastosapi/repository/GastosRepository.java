@@ -1,4 +1,4 @@
-package br.com.santander.api.repository;
+package br.com.gastosapi.repository;
 
 import java.time.LocalDate;
 import java.util.List;
@@ -6,7 +6,7 @@ import java.util.List;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
-import br.com.santander.api.model.Gasto;
+import br.com.gastosapi.model.Gasto;
 
 @Repository
 public interface GastosRepository extends CrudRepository<Gasto, Long>{

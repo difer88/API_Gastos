@@ -1,13 +1,13 @@
-package br.com.santander.api;
+package br.com.gastosapi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SantanderApiApplication {
+public class GastosApiApplication {
 
 	public static void main(String[] args) throws Exception {
-		SpringApplication.run(SantanderApiApplication.class, args);
+		SpringApplication.run(GastosApiApplication.class, args);
 	}
 
 }

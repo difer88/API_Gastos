@@ -1,4 +1,4 @@
-package br.com.santander.api.service;
+package br.com.gastosapi.service;
 
 import java.time.LocalDate;
 import java.util.List;
@@ -6,8 +6,8 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import br.com.santander.api.model.Gasto;
-import br.com.santander.api.repository.GastosRepository;
+import br.com.gastosapi.model.Gasto;
+import br.com.gastosapi.repository.GastosRepository;
 
 @Service
 public class GastosService{
